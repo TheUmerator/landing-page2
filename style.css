@@ -1,0 +1,66 @@
+*{
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+
+    font-family: Roboto,sans-serif;
+}
+
+/* Setting up colors first */
+.header,.sec1,.footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+
+    /* Header Font Size */
+    /* font-size: 24px; */
+
+    /* Header link size */
+    /* font-size: 18px; */
+
+    /* Hero title font size */
+    /* font-size: 48px; */
+    /* font-weight: 900; */
+
+    /* Hero desc size */
+    /* font-size: 18px; */
+
+    /* info title */
+    /* font-size: 36px; */
+
+    /* quote size */
+    /* font-size: 18px; */
+    /* font-weight: light; */
+    /* font-style: italic; */
+
+}
+
+body{
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+
+}
+
+.sec1{
+
+}
+
+.sec2{
+    
+}
+.sec3{
+    background-color: #e5e7eb;
+    
+}
+.sec4{
+    
+}
+
+.footer{
+
+}

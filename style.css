@@ -82,15 +82,37 @@ button{
 }
 .info-title{
     font-size: 36px;
+    font-weight: bold;
 }
 
 .card-box{
     display: flex;
 }
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-text{
+    text-align: center;
+}
 .sec3{
     background-color: #e5e7eb;
     height:22.5vh;
-    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+        font-size: 18px;
+    font-weight: light;
+    font-style: italic;
+}
+.auth{
+    align-self: flex-end;
 }
 .sec4{
     height:22.5vh;

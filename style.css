@@ -11,12 +11,6 @@
     background-color: #1F2937;
     color: #f9faf8;
 
-    /* Header Font Size */
-    /* font-size: 24px; */
-
-    /* Header link size */
-    /* font-size: 18px; */
-
     /* Hero title font size */
     /* font-size: 48px; */
     /* font-weight: 900; */
@@ -34,6 +28,8 @@
 
 }
 
+
+
 body{
     height: 100vh;
 
@@ -43,24 +39,56 @@ body{
 }
 
 .header{
+    height: 5vh;
+
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+
+    font-weight: bold
 
 }
+.logo{
+    font-size: 24px;
 
+}
+.h-list{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    display: flex;
+    gap: 20px;
+}
 .sec1{
+    height:22.5vh;
 
 }
 
 .sec2{
+    height:22.5vh;
     
 }
 .sec3{
     background-color: #e5e7eb;
+    height:22.5vh;
     
 }
 .sec4{
+    height:22.5vh;
     
 }
 
 .footer{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #f9faf8;
 }

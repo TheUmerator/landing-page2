@@ -1,5 +1,5 @@
 *{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0;
     padding: 0;
 
@@ -116,7 +116,17 @@ button{
 }
 .sec4{
     height:22.5vh;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta-box{
+    background-color: #3882f6;
+    padding: 2rem 8rem;
+
+}
+.cta-text{
+    color: #fff;
 }
 
 .footer{

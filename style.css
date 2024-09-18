@@ -10,15 +10,6 @@
 .header,.sec1,.footer {
     background-color: #1F2937;
     color: #f9faf8;
-
-    /* info title */
-    /* font-size: 36px; */
-
-    /* quote size */
-    /* font-size: 18px; */
-    /* font-weight: light; */
-    /* font-style: italic; */
-
 }
 
 
@@ -29,6 +20,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    /* padding: 0 10vw; */
+}
+
+.header,.sec1,.sec2,.sec3,.sec4,.footer{
+    padding: 0 18vw;
 }
 button{
     font-weight: bold;
@@ -63,6 +60,8 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    gap: 50px;
 }
 .hero-title{
     font-size: 48px;
@@ -70,6 +69,10 @@ button{
 }
 .hero-desc{
       font-size: 18px;
+}
+.hero-image{
+    width: 15vw;
+    height: auto;
 }
 
 .sec2{
